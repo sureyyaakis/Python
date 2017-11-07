@@ -1,3 +1,5 @@
+#Sureyya Betul Akis
+
 a=float(input("What is the unit price of a TV? "))
 b=float(input("How Many TVs Were Sold? "))
 c=float(input("What is the unit price of a DVD player? "))
