@@ -1,0 +1,27 @@
+a=float(input("What is the unit price of a TV? "))
+b=float(input("How Many TVs Were Sold? "))
+c=float(input("What is the unit price of a DVD player? "))
+d=float(input("How Many DVD Players Were Sold? "))
+e=float(input("What is the unit price of a Game Controller? "))
+f=float(input("How Many Game Controllers Were Sold? "))
+g=float(input("What is the unit price of a Game Console? "))
+h=float(input("How Many Game Consoles Were Sold? "))
+i=float(input("What is the unit price of a Cell Phone? "))
+k=float(input("How Many Cell Phones Were Sold? "))
+
+print("_"*60)
+print("QTY	 DESCRIPTION	            UNIT PRICE	 TOTAL PRICE ")
+print('_'*60)
+
+print(b, "%10s" % "TV", "%28s" % a, "     ", float(a*b))
+print(d, "%18s" % "DVD Player", "%20s" % c,  "     ", float(c*d))
+print(f, "%23s" % "Game Controller","%15s"% e,  "     ", float(e*f))
+print(h, "%20s" % "Game Console","%18s"% g,  "     ", float(g*h))
+print(k, "%18s" % "Cell Phone","%20s"% i,  "     ", float(i*k))
+print("                                       ---------------------")
+
+subt = (a*b) + (c*d) + (e*f) + (g*h) + (i*k)
+tax = (8.25*subt)/100
+print("                                 SUBTOTAL           ", subt)
+print("                                 TAX                ", tax)
+print("                                 TOTAL              ", tax+subt)
