@@ -1,4 +1,4 @@
-#Sureyya Betul Akis26
+#Sureyya Betul Akis
 #creates a menu-driven program that allows a user to enter five numbers (integers)
 
 def main():
